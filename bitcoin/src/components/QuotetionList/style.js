@@ -8,10 +8,17 @@ const styles = StyleSheet.create({
      justifyContent:"space-evenly"
   },
   buttonQuery:{
-     
+     width:50 ,
+     height:30,
+     backgroundColor:"#f50d41",
+     borderRadius:50,
+     justifyContent:"center",
+     alignItems:"center"
   },
   textButtonQuery:{
-     
+     color:"#fff",
+     fontWeight:"bold",
+     fontSize:14,
   },
   
 });
