@@ -3,6 +3,7 @@
 import CurrentPrice from './src/components/CurrentPrice';
 import HistoryGraphic from './src/components/HistoryGraphic';
 import QuotationList from './src/components/QuotetionList';
+import QuotationItem from './src/components/QuotetionList/QuotationItem';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <CurrentPrice/>
       <HistoryGraphic/>
       <QuotationList/>
+      <QuotationItem/>
     </SafeAreaView>
   );
 }
