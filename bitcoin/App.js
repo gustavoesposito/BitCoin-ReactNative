@@ -5,6 +5,19 @@ import HistoryGraphic from './src/components/HistoryGraphic';
 import QuotationList from './src/components/QuotetionList';
 import QuotationItem from './src/components/QuotetionList/QuotationItem';
 
+function addZero(number){
+if(number <= 9){
+  return "0" + number
+}
+return number
+}
+
+function url(qtdDays){
+const 
+
+
+}
+
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
