@@ -13,7 +13,11 @@ return number
 }
 
 function url(qtdDays){
-const 
+const data = new Date();
+const listLastDays =   qtdDays
+ 
+return `https://www.mercadobitcoin.net/api/BTC/day-summary/2013/6/20/
+`
 
 
 }
