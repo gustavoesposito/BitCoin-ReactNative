@@ -1,16 +1,18 @@
  import { StyleSheet, Text, View, SafeAreaView, Platform,StatusBar } from 'react-native';
  import React from 'react'
 import CurrentPrice from './src/components/CurrentPrice';
+import HistoryGraphic from './src/components/HistoryGraphic';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar  
-      backgroundColor='#f50d41'
+       backgroundColor="#fff"
       barStyle="light-content"
       />
       <CurrentPrice/>
+      <HistoryGraphic/>
     </SafeAreaView>
   );
 }
